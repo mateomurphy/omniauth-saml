@@ -23,9 +23,9 @@ module OmniAuth
       option :attribute_service_name, 'Required attributes'
       option :attribute_statements, {
         name: ["name"],
-        email: ["email", "mail"],
-        first_name: ["first_name", "firstname", "firstName"],
-        last_name: ["last_name", "lastname", "lastName"]
+        email: ["email", "mail", "Email"],
+        first_name: ["first_name", "firstname", "firstName", "FirstName"],
+        last_name: ["last_name", "lastname", "lastName", "LastName"]
       }
       option :slo_default_relay_state
       option :uid_attribute
